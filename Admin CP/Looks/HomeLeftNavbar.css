@@ -1,0 +1,26 @@
+.categoryNavigation{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 200px;
+	text-decoration: none;
+	background-color: #22334414;
+	/*margin-left: 38px;*/
+}
+.leftNavContent{ display: flex; }
+.categoryNavigation h2{ font-size: 18px; background-color: lightgray; width: 91%; padding: 10px; margin-bottom: -40px; }
+ul li a{ margin-left: 10px; }
+#listLebel{ padding: 4px; margin-left: 10px; }
+
+.leftNavContent{
+	position: relative; display: flex; width: auto; border-color: transparent; cursor: pointer;
+}
+.leftNavContent:hover{ background-color: #22334414; }
+.leftNavContent img{ height: 20px; width: auto; padding: 6px 0px 4px 6px; }
+
+.leftNavContent { padding: 6px 0px 6px 6px; font-size: 16px; cursor: pointer; }
+
+#usernameLabel{ margin-left: 10px; padding: 4px; }
+.userDashMenu{ position: relative; display: flex; flex-direction: column; text-align: center; left: 24%; padding: 4px; }
+.categoryNavigation label{ text-align: center; margin-bottom: 10px; }
+#usrImg{ height: 100px; width: 100px; border-radius: 100%; background-color: green; }

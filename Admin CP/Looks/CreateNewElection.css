@@ -1,0 +1,143 @@
+.natEleseperator{ display: flex; padding: 4px 10px; justify-content: space-between; margin: 4px; color: #fff; font-weight: bold; width: 98%; background-color: green; }
+.seperator{ padding: 4px 10px; display: flex; justify-content: space-between; margin: 4px; color: #fff; font-weight: bold; width: 98%; background-color: green; }
+.resultSwitch{ position: fixed; top: 280px; }
+
+.OuterLayer{ margin: 4px; }
+.labelTitle{ padding: 10px; display: flex; justify-content: space-between; font-size: 16px; margin: 4px; color: #fff; font-weight: bold; width: 98%; background-color: #10B400; }
+
+.listLabelTitle,.notificationLists{ padding: 10px; display: flex; font-size: 16px; cursor: pointer;
+	margin: 4px; margin-bottom: 14px; color: #000; border-radius: 10px; font-weight: bold; width: 97%; background-color: #22334414;
+box-shadow: 10px 10px 8px lightgray; transition-duration: .8s; }
+.listLabelTitle:hover{ background-color: #FDFEFD; 
+	transition-duration: .8s; }
+.imgHolder{ width: 160px; margin-left: 50px; }
+.listLabelTitle img{ height: 100px; width: 100px; padding-top: 10px; }
+.listLabelTitle h4{ width: 190px; padding-top: 48px; text-align: center; }
+.listLabelTitle label{ width: 220px; text-align: center; padding-top: 48px;font-weight:bolder; }
+.listLabelTitle span{ width: 200px; text-align: center; padding-top: 34px;
+	font-weight:bolder; font-size: 48px; font-weight: bolder; color: #48C47D;}
+
+
+.nextLabelTitle{ padding: 10px; display: flex; font-size: 16px;
+ margin: 4px; color: #fff; font-weight: bold; width: 98%; background-color: #10B400; }
+.dividerImgLabel{ width: 118px; text-align: center; }
+.dividerNameLabel{ width: 230px; text-align: center; }
+.dividerStatusLabel{ width: 100px; text-align: center; }
+.dividerEleJoined{ width: 160px; text-align: center; }
+.dividerActionButton{ width: 160px; text-align: center; }
+.photoHolder{ width: 124px; margin-left: 4px; }
+.notificationLists img{ height: 100px; width: 100px; margin-left: 10%; padding-top: 4px; }
+.nameLabel{ width: 238px; text-align: center; padding-top: 48px;font-weight:bolder; }
+.voteStat{ width: 110px; padding-top: 48px; text-align: center; }
+.joinDate{ width: 164px; padding-top: 48px; text-align: center; }
+.notificationLists label{ width: 238px; text-align: center; padding-top: 48px;font-weight:bolder; }
+/*.notificationLists button{ width: 100px; height: 20px; margin: 20px; }*/
+.grantBtn{ display: flex; width: 100px; height: 30px; margin: 14px 0px 10px 40px; border-radius: 4px; border: unset;
+	background-color: #26A405; color: #fff; cursor: pointer; }
+.grantBtn img,.deleteBtn img{ height: 16px; width: 16px; margin-right: 10px; margin-top: -2px; }
+.deleteBtn{ display: flex; width: 100px; height: 30px; margin: 14px 0px 10px 40px; border-radius: 4px; border: unset;
+	background-color: #FF4F4F; color: #fff; cursor: pointer; }
+.natEleDashBoard{ display: block; }
+.grantBtn:hover{ background-color: green; }
+.deleteBtn:hover{ background-color: red; }
+
+
+.newElectionInputForm{ display: flex; flex-direction: column; margin-left: 20px; }
+.leftPart{ font-size: 18px; color: gray; }
+#colonSeperator{ font-size: 18px; width: 40px; }
+.middlePart{ display: flex; flex-direction: column; margin-left: 100px; width: 60%; font-size: 18px; color: #444444; }
+
+.rightPart{ top: 140px; font-size: 18px; color: #444444; position: absolute; right: 20%;
+	height: 100px; width: 100px; }
+
+.actionMode button{ width: 180px; background-color: #82E0AA; border: none; padding: 2px; 
+	cursor: pointer; border-radius: 4px; color: #fff; font-size: 14px; }
+button,input:focus{
+	outline: none;
+}
+.fieldChanger{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: red; width: 100%; width: 100%; }
+#changeInfo{ display: flex; display: none; flex-direction: column; position: absolute; padding: 20px; background-color: #fff;
+border-radius: 4px; border: 2px solid lime; right: 354px; top: 130px; width: 340px; height: 200px; }
+
+#fieldsetArea{ border-radius: 4px; height: 24%; width: 100%; margin: 10px 0px; }
+#fieldsetArea input{ padding: 8px; background-color: unset; width: 96%; position: relative;
+ margin-top: -18px; border: none;  }
+
+#fieldsetLabel{ color: green; margin-left: 10px; }
+.buttons{ display: flex; margin-top: 40px; font-size: 18px;
+ }
+.buttons input{ width: 90%; padding: 8px; margin: 4px; border-radius: 4px; border: unset; transition-duration: .8s; }
+.buttons input:hover{ background-color: green; color: #fff; transition-duration: .8s; cursor: pointer; }
+#cancelSignal:hover{ background-color: #940000; transition-duration: .8s; }
+
+#updateInfoField{ padding: 4px; font-size: 16px; width: 38%; background-color: transparent; border-color: transparent; }
+#infoUpdateBtn,#CreateNewElectionBtn,#addCandidateBtn{ padding: 8px; width: 26.8%; cursor: pointer; margin-top: 10px; border-radius: 4px; border: none; 
+	font-size: 18px; background-color: green; color: #fff; margin-left: 38.8%; }
+#addNewElectionBtn{ padding: 8px; width: 56%; cursor: pointer; margin-top: 10px; border-radius: 4px; border: none; 
+	font-size: 18px; background-color: green; color: #fff; margin-left: 40%; }
+
+
+
+#addNewVoterBtn{ padding: 8px; width: 26.8%; cursor: pointer; margin-top: 10px; border-radius: 4px; border: none; 
+	font-size: 18px; background-color: green; color: #fff; margin-left: 30.5%; }
+
+
+#citzNum,#colzID,#schID,#ofcID,#vPwd{ display: none; }
+
+#CreateNewElectionBtn,#addCandidateBtn{ margin-left: 32%; }
+.infoUpdater{ margin-left: 36%; width: 48%; display: flex; flex-direction: column; display: none; }
+.confirmPassword,.addCandidateDetail,.addVoterDetails{ margin-left: 12.6%; width: 48%; display: flex; flex-direction: column; display: none; }
+.infoUpdater button{ border-radius: 4px; padding: 8px; border: none; }
+.infoUpdater button{ margin-top: 10px; width: 58%; font-size: 18px; background-color: green; color: #fff; }
+#newElectionInputFields{ width: 180px; }
+#passwordInputFieldsWithLabel{ width: 184px; margin-left: -224px; color: red; }
+.fields{ display: flex; margin: 2.8px; }
+.fields input{ border-radius: 4px; font-size: 16px; color: gray; border: none;
+	background-color: transparent; padding: 4px; width: 44%; }
+.passwordConfirm{ border: 1px solid red; }
+#confirmPasswordField{ width: 54.8%; border: 1px solid green; }	
+#genderSelector{ border-radius: 4px; color: gray; font-size: 18px; background-color: transparent; width: 46%; border: none; padding: 4px; }
+
+.electionFields{ display: flex; margin: 2.8px; }
+.electionFields input{ border-radius: 4px; font-size: 16px; color: gray; border: 1px solid #000;
+	background-color: transparent; padding: 4px; width: 44%; }
+#electiontype,#electionTypeSelector,#electionName,#genderSel{ border-radius: 4px; color: gray; font-size: 18px; background-color: transparent; width: 46%; border: 1px solid #000; padding: 4px; }
+select:focus{ outline: none; }
+#uploadCandImg input{ width: 100px; height: 100px; font-size: 0;
+	 position: absolute; left: 52px; top: 0; background-color: transparent; left: 0; text-align: center; }
+#uploadPartyLogo input{ width: 100px; height: 100px; font-size: 0px;
+	 position: absolute; left: 52px; top: 144px; background-color: transparent; left: 0; }
+
+#imgPath{ background-color: transparent; left: 0; }
+#logoPath{ background-color: lime; left: 0; }
+
+#candImg{ height: 90px; width: 90px; border: 2px solid green; }
+#uploadLink{ font-size: 10px; text-align: center; }
+
+
+/*This is of showing the messages*/ 
+.alertMessage,.newAlertMsg{ height: 240px; width:
+400px; position: fixed; left: 36%; top: 34%; z-index: 1111111; border-radius:
+10px; background-color: rgba(14, 100, 0,.9); display: none; } 
+.oneMore{ position: relative; height: 100%; } 
+.oneMore h3{ background-color: green; color: #fff; padding: 4px 10px; border-radius: 10px 10px 0px 0px; } 
+.alertMsg{ font-size: 18px; position: absolute; color: #fff; padding: 2px 10px; width: auto; height: 110px; } 
+.cancelbtn{ padding: 4px 10px; background-color: lime; border-radius: 4px; position: absolute;  bottom: 10px; right: 10px; cursor:
+pointer; user-select: unset; } 
+.cancelbtn:hover{ background-color: lightgreen; color: green; } 
+.okBtn{ padding: 4px 10px; background-color: lime;
+border-radius: 4px; position: absolute;  bottom: 10px; right: 120px; cursor: pointer; user-select: unset; } 
+.okBtn:hover{ background-color: lightgreen; color: green; } 
+.allScreen{ position: fixed; top: 0; height: 100%; width:
+100%; display: none; background-color: rgba(0, 0, 0, .8);  z-index: 111111; }
+.electionList{ position: fixed; left: 0; top: 220px; background-color: #10B400;
+width: 200px; height: 474px; }
+.electionList h3{ text-align: center; color: #fff; }
+.elelistItems{ width: 100%; height: 28px; padding: 2px; cursor: pointer; margin-bottom: 10px; }
+.elelistItems img{ margin: 0 0 0 10px; height: 28px; width: 28px; }
+.elelistItems span{ padding: 5px 10px; width: 100%; position: absolute; }
+.allEleList{ position: relative; width: 192px; overflow: scroll; padding: 4px; height: 362px; background-color: #fff; }
+.buttonSection{ position: absolute; background-color: red; text-align: center; color: #fff;
+	bottom: 40px; padding: 8px; cursor: pointer; width: 168px; margin: 0px 8px; }
+.elelistItems:hover,.elelistItems span:hover{ background-color: lightgray; }
+.buttonSection:hover{ background-color: #FF4F4F; }

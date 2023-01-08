@@ -1,0 +1,139 @@
+*{ margin: 0; padding: 0; }
+
+.brandLogo{
+	height: 80px; width: 80px; margin-left: 40px;
+}
+.brandLogo img{ position: relative; height: 60px; width: 60px; padding: 10px; }
+
+.categories{ text-align: center; padding: 8px; display: flex; }
+
+.gb_hf{ border: none; background-color: transparent; margin-left: 6px; margin-top: -4px;
+	padding: 4px; vertical-align: middle; width: 28px; height: 28px; }
+
+.gb_bf{ border: none; background-color: transparent; margin-left: 6px;
+	padding: 4px; vertical-align: middle; width: 28px; height: 28px; }
+
+.gb_bf:hover, .gb_hf:hover{ background: rgba(0,0,0,0.04); border-radius: 40px; }
+
+.gb_bf:focus, .gb_hf:focus{ outline: none; }
+
+#webTitle{ padding: 10px; font-size: 40px; color: #fff; }
+
+#Category{ height: 20px; overflow: hidden; }
+/*#Category ul li{ position: absolute; }*/
+#Category:hover { background-color: transparent; }
+
+#cartGoods{ position: absolute; margin-top: 14px;
+	color: green; background-color: rgba(48,144,0,0.3); padding: 2px; 
+	height: 18px; width: 18px; border-radius: 10px; text-align: center; top: 0;
+}
+
+#cart{
+	height: 34px;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	text-align: center;
+	margin-top: 28px;
+	margin-right: 40px;
+}
+.userAction{ display: flex; flex-direction: column; margin-right: 40px; }
+.userAction span{ text-align: center; }
+.userAction img{ height: 100%; width: 100%; }
+.userIcon{ position: relative; display: flex; flex-direction: column; }
+#user{
+	margin-top: 10px;
+	height: 34px;
+	width: 34px;
+	padding: 2px;
+	border-radius: 50%;
+	border: 2px solid lime;
+	left:30%;position:relative;
+}
+#forLabel{ padding-top: 4px; margin-left: -0px; color: #fff; }
+
+.navLinks{ display: flex;  padding: 10px; }
+.navLinks a{ color: #fff; margin: 0px 10px; font-size: 14px; }
+.navLinks a li{ list-style: none; }
+.navLinks a li:hover{ color: lime; }
+.categories{ text-align: center; padding: 8px; display: flex; }
+
+.searchBarBelow{ height: 30px; max-width: 720px; display: flex;
+			margin: 4px; background: #EBEDEF; border-radius: 4px;
+			border: 1px solid rgba(0,0,0,0); margin-left: 24%;
+}
+#searchProd{ height: 30px; align-content: center; width: 600px; background-color: transparent; 
+			border: none; font: normal 14px Roboto,sans-serif; margin-left: 10px; color: #34495E;
+}
+
+#searchProd:focus{
+	outline: none;
+}
+.iglass{ border: none; background-color: transparent; margin-left: 6px;
+	padding: 4px; vertical-align: middle; width: 28px; height: 28px; }
+
+.iglass:hover{ background: rgba(0,0,0,0.04); border-radius: 40px; }
+
+.iglass:focus{ outline: none; }
+
+#scrolDisplay, #scrolDisplayUsrActBar{ visibility: hidden; }
+#cartBelow{
+	height: 14px;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	text-align: center;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+#userBelow{
+	height: 28px;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+.cartBelow{ margin-left: 20px; margin-top: -20px; }
+.userActionBar{ margin-left: 40px; display: flex; flex-direction: column; }
+#cartData{ position: absolute; margin-top: 2px;
+	color: green; background-color: #fff; padding: 2px; 
+	height: 18px; width: 18px; border-radius: 10px; text-align: center; top: 0; margin-left: 4px;
+}
+#iconLabel a{ padding-top: 20px; color: #fff; font-size: 14px; }
+#iconLabel a:hover{ color: lime; }
+
+.userDrowdownMenu{
+	position: fixed;
+	height: auto;
+	width: 200px;
+	right: 40px;
+	top: 80px;
+	display: none;
+	background-color: #EFEFEF;
+	z-index: 111;
+	border: 1px solid green;
+	border-radius: 4px 0px 4px 4px;
+	transition-duration: .1s;
+}
+
+
+.leftNavContent{ display: flex; }
+.categoryNavigation h2{ font-size: 18px; background-color: lightgray; width: 91%; padding: 10px; margin-bottom: -40px; }
+ul li a{ margin-left: 10px; }
+#listLebel{ padding: 4px; margin-left: 10px; }
+
+.leftNavContent{
+	position: relative; display: flex; width: auto; border-color: transparent; cursor: pointer;
+}
+.leftNavContent:hover{ background-color: #22334414; }
+.leftNavContent img{ height: 20px; width: auto; padding: 6px 0px 4px 6px; }
+
+.leftNavContent { padding: 6px 0px 6px 6px; font-size: 16px; cursor: pointer; }
+
+#usernameLabel{ margin-left: 10px; padding: 4px; }
+.userDashMenu{ position: relative; display: flex; flex-direction: column; text-align: center; left: 24%; padding: 4px; }
+.categoryNavigation label{ text-align: center; margin-bottom: 10px; }
+#usrImg{ height: 100px; width: 100px; border-radius: 100%; background-color: green; }

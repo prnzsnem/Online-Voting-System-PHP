@@ -1,0 +1,28 @@
+
+	.main_display_content{
+		bottom: 0;
+		right: 395px;
+		padding: 14px;
+	}
+	h2{ font-size: 18px; background-color: lightgray; margin-left: 38px; width: 79%; padding: 10px; margin-bottom: -40px; }
+	.location_list_with_details{ overflow: hidden; width: 140px; }
+	.location_list_with_details img{ height: 100px; width: 140px; }
+	.main_display_inner_content{ display: flex; flex-direction: column; margin-top: 10px; }
+	.resultScreen{ display: flex; }
+	h3{ color: #4a4a4a;  }
+	.description_of_main_inner_content{ margin-left: 18px; padding: 4px; width: 400px; }
+	.serviceDescription{ font-size: 12px; text-align: justify; }
+	.contactDetails{ color: #4a4a4a; margin-top: 10px; font-size: 12px; }
+	.more_details{ color: red; cursor: pointer; }
+	.serviceDetails{ color: #4a4a4a; margin-top: 10px; font-size: 12px; }
+	.horizontalLine{ width: 100%; margin-top: 10px; }
+
+	.divider{ padding: 4px 10px; color: #fff; font-weight: bold; width: 98%; background-color: green; }
+	#adPostDate{ margin-left: 184px; }
+	#prodPriceTitle{ margin-left: 60px; }
+	#forTitle{ margin-right: 104px; }
+	.adPostedDate, .adProdPrice{ text-align: center; padding: 40px 10px; width: 100px; }
+	.verticalDivider{ background-color: lightgray; padding: 1px; }
+	.error_icon{ display: flex; flex-direction: column; height: 200px; width: auto; position: relative; left: 300px; top: 40px; }
+	.error_icon img{ height: 200px; width: auto; }
+	.error_icon label{ font-size: 20px; color: gray; }
