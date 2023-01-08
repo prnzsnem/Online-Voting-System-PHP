@@ -10,4 +10,4 @@ This php site contains the admin pannel of Online Voting System but the main sof
 
 *Note:<br/>
   This web software is dependent on the given android application<br/>
-  => Online Voting System Android App
+  => Online Voting System Android App: https://github.com/prnzsnem/Online-Voting-System-Android-App.git
